@@ -31,7 +31,7 @@ body {
 }
 
 .card-content {
-  padding: 25px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,15 +45,15 @@ body {
 
 h1 {
   font-family: 'Fraunces', serif;
-  font-size: 28px;
-  margin: 15px 0;
+  font-size: 32px;
+  margin: 20px 0;
   line-height: 1;
 }
 
 .description {
   color: hsl(228, 12%, 48%);
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 .price {
@@ -103,4 +103,5 @@ h1 {
   .card-image img {
     border-radius: 10px 10px 0 0;
   }
+
 }
